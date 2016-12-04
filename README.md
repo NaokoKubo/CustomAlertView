@@ -1,0 +1,2 @@
+# CustomAlertView
+Xibを使って自前のAlertView風に作ってみた
