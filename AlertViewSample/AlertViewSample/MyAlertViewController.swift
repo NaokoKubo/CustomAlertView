@@ -36,11 +36,9 @@ class MyAlertViewController: UIViewController,UIViewControllerTransitioningDeleg
     override init(nibName nibNameOrNil:String?, bundle ninBundleOrNil:Bundle? ){
         super.init(nibName:nibNameOrNil,bundle:ninBundleOrNil)
         self.transitioningDelegate = self
-        self.modalPresentationStyle = .custom
-        
         self.providesPresentationContextTransitionStyle = true
         self.definesPresentationContext = true
-        self.modalPresentationStyle = UIModalPresentationStyle.custom
+        self.modalPresentationStyle = .custom
         
     }
 
